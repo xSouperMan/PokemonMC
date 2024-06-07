@@ -203,7 +203,7 @@ public enum Attack {
     ODOR_SLEUTH("", "", Type.NORMAL, 40, , ),
     OUTRAGE("", "", Type.DRAGON, 20, , ),
     OVERHEAT("", "", Type.FIRE, 5, , ),
-    PAIN_SPLIT("", "", Type.NORMAL, , , ),
+    PAIN_SPLIT("", "", Type.NORMAL, 20, , ),
     PAY_DAY("", "", Type.NORMAL, , , ),
     PECK("", "", Type.FLYING, , , ),
     PERISH_SONG("", "", Type.NORMAL, , , ),
