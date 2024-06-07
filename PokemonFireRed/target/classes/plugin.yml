@@ -1,0 +1,4 @@
+name: PokemonFireRed
+version: '1.0'
+main: de.souperman.main.Main
+api-version: '1.20'
