@@ -1,6 +1,6 @@
 package de.souperman.enums;
 
-enum Area {
+public enum Area {
     PALLET_TOWN,
     VIRIDIAN_CITY,
     VIRIDIAN_FOREST,
