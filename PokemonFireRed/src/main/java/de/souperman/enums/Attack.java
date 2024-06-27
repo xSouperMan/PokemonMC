@@ -9,7 +9,7 @@ public enum Attack {
     ACID_ARMOR("Acid Armor", "Raises the user's Defense by 2 stages.", Type.POISON, 40, 0, 100),
     AERIAL_ACE("Aerial Ace", "Ignores Evasion and Accuracy modifiers and never misses except against Protect, Detect or a target in the middle of Dig, Fly, Dive or Bounce.", Type.FLYING, 20, 60, 100),
     AEROBLAST("Aeroblast", "Has a high critical hit ratio.", Type.FLYING, 5, 100, 95),
-    AGILITY("Agility", "Raises the user's Speed by 2 stages.", Type.PSYCHIC, 30, 0, 100),
+    AGILITY("Agility", "Raises the user's Speed by 2 stages.", Type.PSYCHIC, 30, 0, 100),/**
     AIR_CUTTER("", "", Type.FLYING, 25, 55, 95),
     AMNESIA("", "", Type.PSYCHIC, 20, , ),
     ANCIENTPOWER("", "", Type.ROCK, 5, , ),
@@ -356,7 +356,7 @@ public enum Attack {
     WISH("", "", Type.NORMAL, 10, , ),
     WITHDRAW("", "", Type.WATER, 40, , ),
     WRAP("", "", Type.NORMAL, 20, , ),
-    YAWN("", "", Type.NORMAL, 10, , ),
+    YAWN("", "", Type.NORMAL, 10, , ),**/
     ZAP_CANNON("Zap Cannon", "Paralyzes the target.", Type.ELECTRIC, 5, 100, 50);
 
 
