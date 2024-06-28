@@ -2,11 +2,14 @@ package de.souperman.trainer;
 
 import de.souperman.enums.Area;
 import de.souperman.pokemon.Pokemon;
+import org.bukkit.Location;
+import org.bukkit.entity.Player;
 
 import java.util.ArrayList;
 
 public class Trainer {
 
+    private Player player;
     private String name;
     private Area currentArea;
     private Location currentBlock;
@@ -20,4 +23,7 @@ public class Trainer {
     private ArrayList<Pokemon> pokemonPC;
 
 
+    public Player getPlayer() {
+        return player;
+    }
 }

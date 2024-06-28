@@ -1,6 +1,8 @@
 package de.souperman.pokemon;
 
 import de.souperman.trainer.Trainer;
+import org.bukkit.Bukkit;
+import org.bukkit.inventory.Inventory;
 
 public class Encounter {
 
@@ -14,14 +16,18 @@ public class Encounter {
         this.trainer = trainer;
         this.pokemon = pokemon;
 
-        Inventory inv = new Inventory()//TODO
+        inv = Bukkit.createInventory(null, 36, "WILD ENCOUNTER");
+
+
+
+        trainer.getPlayer().openInventory(inv);
     }
 
     public void changeTurn() {
-        this.onTurn = !onTurn;
+        onTurn = !onTurn;
     }
     public boolean isOnTurn() {
-        return this.onTurn;
+        return onTurn;
     }
 
     public Trainer getTrainer() {
